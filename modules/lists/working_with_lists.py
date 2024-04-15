@@ -11,3 +11,12 @@ for ani in animals:
 #make a new loop making a statement about the animals
 for ani in animals:
     print(f"{ani} sure are fluffy")
+
+#copy the pizza list, then add a new pizza to the orginal list, add a new pizza to the new list, use loops to print both lists
+friends_pizza: list[str] = pizza.copy()
+pizza.append("Mushrooms")
+friends_pizza.append("Hawiaan")
+for i in pizza:
+    print(i)
+for i in friends_pizza:
+    print(i)
