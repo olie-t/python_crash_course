@@ -52,3 +52,38 @@ fav_fruits = ["Banana", "Apple", "Orange", "Melon", "Pineapple", "Grapes"]
 
 if "Banana" in fav_fruits:
     print("Bananas are great")
+
+users: list[str] = ['Admin', 'Adam', 'Steve', 'Laura', 'Kath']
+
+if users:
+    for user in users:
+        if user == 'Admin':
+            print(f'Welcome to the program, {user}')
+        else:
+            print(f'Ur a nub lol, {user}')
+else:
+    print('we need some users')
+
+current_users = ['Admin', 'Adam', 'Steve', 'Laura', 'Kath']
+new_users = ['Steve', 'Dave', 'Ben', 'Syd', 'Laura']
+current_users_map: dict = {}
+for user in current_users:
+    current_users_map[user.lower()] = True
+for user in new_users:
+    if user.lower() in current_users_map:
+        print(f'{user} is in use, pick a new user name')
+    else:
+        print(f'Welcome to the platform {user}')
+
+numbers = [i for i in range(1, 10)]
+for i in numbers:
+    if i == 1:
+        print("1st")
+    elif i == 2:
+        print("2nd")
+    elif i == 3:
+        print("3rd")
+    else:
+        print(f'{i}th')
+
+
