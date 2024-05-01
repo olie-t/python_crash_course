@@ -1,0 +1,6 @@
+shorthair
+longhair
+ragdoll
+sphinx
+persian
+maine coon
