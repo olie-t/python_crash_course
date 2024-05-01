@@ -1,0 +1,5 @@
+In python you can create variables
+In python you can use different datatypes such as lists dicts and sets
+In python you can traverse over some datatypes using iterations
+In python you can create functions as reusable code
+In python you can create classes to describe common groupings of data and functions
